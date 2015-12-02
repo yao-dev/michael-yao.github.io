@@ -1,0 +1,83 @@
+#options
+{
+	width: 200px;
+	height: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #446CB3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
+h1
+{
+	font-size: 35px;
+	font-family: arial;
+	color: #fff;
+}
+
+input
+{
+	display: block;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	border: none;
+	height: 30px;
+}
+
+
+
+*::-moz-focus-inner 
+{
+  border: 0;
+}
+
+
+
+#play, #replay
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+#play:active, #replay:active
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	outline: none;
+}
+
+#game
+{
+	margin: auto;
+	border-radius: 20px;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	top: 25px;
+}
+
+td
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #fff;
+	text-align: center;
+	font-size: 2em;
+	font-family: arial;
+}
+
+#turnToPlay
+{
+	text-align: center;
+	font-family: arial;
+	position: relative;
+	top: 25px;
+}
